@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    background-color: rgb(194, 226, 255);
+}
+body .ps{
+    font-style: italic;
+}
