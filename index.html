@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Francis Nacu</title>
 </head>
 <body>
+    <nav class = "top-nav" id="myTopnav">
+        <a class = "logo" href="#top">Francis</a>
+        <ul>
+            <li><a href="" class="active">About</a></li>
+            <li><a href="booking-list.php">Services</a></li>
+            <li><a href="store.php">Store</a></li>
+            <li><a class="login" href="login.php">Login</a></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </ul>
+    </nav>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "top-nav") {
+            x.className += " responsive";
+          } else {
+            x.className = "top-nav";
+          }
+        }
+    </script>
+
     <div class="main-page">
         <header id="showcase">
-            <h1>John Francis Nacu's Website</h1>
-            <p>... is under construction</p>
-            <p class="ps">ps gerald got killed by someone with no weapons and armor</p>
+            <h2>Hello, I'm</h2>
+            <h1>John Francis Nacu</h1>
+            
+            <p>I am a 3rd year software engineering student at University of Calgary looking for an internship position for year 2022-2023</p>
+
         </header>
         <button onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'" type="button">exit</button>
     </div>
