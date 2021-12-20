@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@600&display=swap');
+@import url(nav-style.css);
 *{
     margin:0;
     padding:0;
 }
 body{
-    font-family: 'Inter', sans-serif;
+    /*font-family: 'Inter', sans-serif;*/
     line-height: 1.6;
 }
 body .ps{
     font-style: italic;
 }
 .main-page h1{
-    font-family: 'M PLUS 1', sans-serif;
+    /*font-family: 'M PLUS 1', sans-serif;*/
     font-weight: bold;
     font-size: 2.5rem;
 }
