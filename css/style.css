@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 @import url(nav-style.css);
 *{
     margin:0;
     padding:0;
 }
 body{
+    font-family: 'Montserrat', sans-serif;
     /*font-family: 'Inter', sans-serif;*/
     line-height: 1.6;
 }
